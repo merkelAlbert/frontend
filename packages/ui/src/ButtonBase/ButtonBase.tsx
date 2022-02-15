@@ -5,7 +5,7 @@ import { StyledButtonBase } from './styled';
 export const ButtonBase = ({
   children,
   variant = ButtonVariants.CONTAINED,
-  color = ButtonColors.PRIMARY,
+  // color = ButtonColors.PRIMARY,
   ...props
 }: BaseButtonProps) => {
   return (
